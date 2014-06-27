@@ -7,7 +7,6 @@ setup(
     name='boilerpipe',
     version=__version__,
     packages=['boilerpipe', 'boilerpipe.extract'],
-    package_dir={'': 'src'},
     package_data={
         'boilerpipe': [
             'data/boilerpipe-1.2.2/boilerpipe-core-1.2.2.jar',
